@@ -108,6 +108,4 @@ spring:
 ---
 
 This guide provides a comprehensive overview of the SNL platform's plugin development process. For further assistance, refer to the provided documentation or reach out to the development team.
-``` 
 
-This rewritten documentation is structured professionally, clearly outlines the steps, and uses markdown formatting for better readability.
