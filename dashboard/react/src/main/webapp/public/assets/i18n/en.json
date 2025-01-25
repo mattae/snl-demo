@@ -1,0 +1,13 @@
+{
+    "CORE": {
+        "BUTTONS": {
+            "SAVE": "Save",
+            "CANCEL": "Cancel",
+            "DELETE": "Delete",
+            "UPDATE": "Update"
+        },
+        "UTIL": {
+            "TOGGLE_FULLSCREEN": "Toggle fullscreen"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+[
+    {
+        "category": "spring.ai.huggingface.chat",
+        "data": [
+            {
+                "key": "url",
+                "name": "spring.ai.huggingface.url",
+                "regex": "^https:\\/\\/api-inference\\.huggingface\\.co\\/models\\/([a-zA-Z0-9_-]+)\\/([a-zA-Z0-9._:-]+)$",
+                "value": "https://api-inference.huggingface.co/models/microsoft/Phi-3-mini-4k-instruct",
+                "type": "string"
+            },
+            {
+                "key": "api-key",
+                "name": "spring.ai.huggingface.api_key",
+                "value": " ",
+                "type": "string",
+                "masked": "true"
+            }
+        ]
+    }
+]

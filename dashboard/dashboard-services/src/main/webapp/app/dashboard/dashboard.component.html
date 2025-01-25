@@ -1,0 +1,38 @@
+<div class="w-full">
+    <mat-card class="mt-8 shadow-xl">
+        <mat-card-title>
+            <div class="text-xl text-center p-3 text-on-surface">
+                {{ 'PLUGINS.DASHBOARD_SERVICES.TITLE' | transloco }}
+            </div>
+        </mat-card-title>
+        <mat-card-content>
+            <mat-tab-group mat-stretch-tabs="false" mat-align-tabs="start">
+                @for (dashboard of dashboards(); track dashboard) {
+                    <mat-tab>
+                        <ng-template mat-tab-label>
+                            {{ dashboard.section | transloco }}
+                        </ng-template>
+                        <div class="p-2 min-h-s">
+                            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8 sm:mt-10">
+                                @for (chart of dashboard.charts; track chart) {
+                                    <!-- Plugin -->
+                                    <div class="flex flex-col h-[110] shadow-md rounded-2xl overflow-hidden bg-card border-primary border">
+                                        <div class="flex flex-col p-6">
+                                            <div class="flex justify-between">
+                                                <div class="text-center">
+                                                    {{ chart.title | transloco }}
+                                                </div>
+                                            </div>
+                                            <div class="my-4 border-b"></div>
+                                            <widget-cell [component]="chart.component"></widget-cell>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </mat-tab>
+                }
+            </mat-tab-group>
+        </mat-card-content>
+    </mat-card>
+</div>

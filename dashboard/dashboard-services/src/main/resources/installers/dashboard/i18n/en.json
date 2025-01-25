@@ -1,0 +1,10 @@
+{
+    "PLUGINS": {
+        "DASHBOARD_SERVICES": {
+            "DESCRIPTION": "A demonstration-purposed dashboard framework",
+            "NAME": "Dashboard Framework",
+            "TITLE": "LAMISPlus Dashboard",
+            "MENU": "Dashboard"
+        }
+    }
+}

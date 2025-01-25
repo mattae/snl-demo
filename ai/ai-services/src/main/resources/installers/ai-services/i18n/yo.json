@@ -1,0 +1,17 @@
+{
+    "PLUGINS": {
+        "AI_SERVICES": {
+            "DESCRIPTION": "Ohun itanna ipilẹ lati pese Awọn iṣẹ AI si awọn afikun ti o gbẹkẹle",
+            "NAME": "AI Awọn iṣẹ"
+        }
+    },
+    "spring": {
+        "ai": {
+            "huggingface": {
+                "chat": "Spring AI - Hugging Face Chat",
+                "url": "URL awoṣe",
+                "api_key": "API Key"
+            }
+        }
+    }
+}

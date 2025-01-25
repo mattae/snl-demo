@@ -1,0 +1,12 @@
+{
+    "PLUGINS": {
+        "CHAT_SERVICES": {
+            "DESCRIPTION": "Ọrụ nkata dị mfe na-eji ụdị Ollama akwadoro",
+            "NAME": "Ọrụ nkata",
+            "SEND": "Ziga",
+            "RETRY": "Gbalịa ọzọ",
+            "CLEAR": "Kpochapụ",
+            "MENU": "Kpaa nkata"
+        }
+    }
+}

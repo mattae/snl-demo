@@ -1,0 +1,9 @@
+description: A sample chart using React
+name: React Charts
+webRemotes:
+    -   remoteEntry: "/js/react-charts/remoteEntry.js"
+        remoteName: _324b72b3_c39e_4957_8097_2d499fb822e0
+        components:
+            -   exposedName: charts
+                elementName: barchart-element
+                name: 01949a46-e706-70ef-a04f-5ac4239b3f4c

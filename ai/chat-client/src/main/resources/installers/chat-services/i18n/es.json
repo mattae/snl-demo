@@ -1,0 +1,12 @@
+{
+    "PLUGINS": {
+        "CHAT_SERVICES": {
+            "DESCRIPTION": "Un servicio de chat sencillo que utiliza el modelo Ollama compatible",
+            "NAME": "Servicios de chat",
+            "SEND": "Enviar",
+            "RETRY": "Rever",
+            "CLEAR": "Claro",
+            "MENU": "Charlar"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "PLUGINS": {
+        "AI_SERVICES": {
+            "DESCRIPTION": "A base plugin to provide AI Services to dependent plugins",
+            "NAME": "AI Services"
+        }
+    },
+    "spring": {
+        "ai": {
+            "huggingface": {
+                "chat": "Spring AI - Hugging Face Chat",
+                "url": "Model URL",
+                "api_key": "API Key"
+            }
+        }
+    }
+}

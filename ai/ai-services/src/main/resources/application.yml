@@ -1,0 +1,14 @@
+spring:
+  liquibase:
+    enabled: false
+  ai:
+    ollama:
+      embedding:
+        enabled: false
+    huggingface:
+      chat:
+        api-key:
+        url: https://api-inference.huggingface.co/models/microsoft/Phi-3-mini-4k-instruct
+sbp-plugin:
+  plugin-first-classes:
+    - org.springframework.ai.autoconfigure.huggingface.*

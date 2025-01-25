@@ -1,0 +1,17 @@
+{
+    "PLUGINS": {
+        "AI_SERVICES": {
+            "DESCRIPTION": "Tushen plugin don samar da Ayyukan AI zuwa abubuwan da suka dogara",
+            "NAME": "Ayyukan AI"
+        }
+    },
+    "spring": {
+        "ai": {
+            "huggingface": {
+                "chat": "Spring AI - Hugging Face Chat",
+                "url": "Samfurin URL",
+                "api_key": "Maɓallin API"
+            }
+        }
+    }
+}

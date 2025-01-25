@@ -1,0 +1,10 @@
+{
+    "PLUGINS": {
+        "DASHBOARD_SERVICES": {
+            "DESCRIPTION": "Ngosipụta dashboard kpuchie",
+            "NAME": "Usoro dashboard",
+            "TITLE": "Dashboard LAMISPlus",
+            "MENU": "Dashboard"
+        }
+    }
+}

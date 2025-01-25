@@ -1,0 +1,10 @@
+{
+    "PLUGINS": {
+        "DASHBOARD_SERVICES": {
+            "DESCRIPTION": "Un marco de panel con fines de demostración",
+            "NAME": "Marco del panel",
+            "TITLE": "Panel de control LAMISPlus",
+            "MENU": "Panel"
+        }
+    }
+}

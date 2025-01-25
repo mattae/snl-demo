@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    username: snl                 # Database username (change)
+    password: snl                 # Database password (change)
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://127.0.0.1:5432/snl  # Database URL (change)

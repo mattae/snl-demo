@@ -1,0 +1,17 @@
+{
+    "PLUGINS": {
+        "AI_SERVICES": {
+            "DESCRIPTION": "Un complemento básico para proporcionar servicios de inteligencia artificial a complementos dependientes",
+            "NAME": "Servicios de IA"
+        }
+    },
+    "spring": {
+        "ai": {
+            "huggingface": {
+                "chat": "Spring AI - Chat de Hugging Face",
+                "url": "URL del modelo",
+                "api_key": "Clave API"
+            }
+        }
+    }
+}

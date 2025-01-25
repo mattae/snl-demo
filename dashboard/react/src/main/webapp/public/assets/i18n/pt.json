@@ -1,0 +1,9 @@
+{
+  "CORE": {
+    "BUTTONS": {
+      "SAVE": "Salvar",
+      "CANCEL": "Cancelar",
+      "DELETE": "Excluir"
+    }
+  }
+}

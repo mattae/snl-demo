@@ -1,0 +1,13 @@
+[
+    {
+        "category": "spring.ai.ollama.chat",
+        "data": [
+            {
+                "key": "model",
+                "name": "spring.ai.ollama.model_name",
+                "value": "qwen2.5:7b",
+                "type": "string"
+            }
+        ]
+    }
+]

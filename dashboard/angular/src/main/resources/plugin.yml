@@ -1,0 +1,12 @@
+description: Sample Angular charts
+name: Angular Charts
+webRemotes:
+    -   remoteEntry: "/js/ngx-dashboard/remoteEntry.js"
+        remoteName: _019499bf-874e-7dab-b2e8-43eeccaabd0b
+        components:
+            -   exposedName: LineChart # The exported name of the component; matches an 'exposes' key of the webpack ModuleFederationPlugin
+                componentName: LineChartComponent # Actual component Name. Only applicable for Angular Components
+                name: 019499bf-874e-7579-8c77-f06bc705fa69 # Optional, if you want the component to be dynamically loadable
+            -   exposedName: BarChart # The exported name of the component; matches an 'exposes' key of the webpack ModuleFederationPlugin
+                componentName: GroupedBarchartComponent # Actual component Name. Only applicable for Angular Components
+                name: 019499bf-874e-706a-bec9-524b5bb20202 # Optional, if you want the component to be dynamically loadable

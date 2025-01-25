@@ -1,0 +1,10 @@
+{
+    "PLUGINS": {
+        "DASHBOARD_SERVICES": {
+            "DESCRIPTION": "Ilana dasibodu ti a pinnu lati ṣe afihan",
+            "NAME": "Dasibodu Framework",
+            "TITLE": "LAMISPlus Dasibodu",
+            "MENU": "Dasibodu"
+        }
+    }
+}

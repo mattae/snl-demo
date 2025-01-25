@@ -1,0 +1,17 @@
+{
+    "PLUGINS": {
+        "AI_SERVICES": {
+            "DESCRIPTION": "Programu-jalizi ya msingi ya kutoa Huduma za AI kwa programu-jalizi tegemezi",
+            "NAME": "Huduma za AI"
+        }
+    },
+    "spring": {
+        "ai": {
+            "huggingface": {
+                "chat": "Spring AI - Hugging Face Chat",
+                "url": "URL ya mfano",
+                "api_key": "Ufunguo wa API"
+            }
+        }
+    }
+}

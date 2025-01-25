@@ -1,0 +1,10 @@
+{
+    "PLUGINS": {
+        "DASHBOARD_SERVICES": {
+            "DESCRIPTION": "Tsarin dashboard da aka yi niyyar nunawa",
+            "NAME": "Tsarin Dashboard",
+            "TITLE": "LAMISPlus Dashboard",
+            "MENU": "Dashboard"
+        }
+    }
+}

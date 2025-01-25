@@ -1,0 +1,9 @@
+{
+    "CORE": {
+        "BUTTONS": {
+            "SAVE": "Sauvegarder",
+            "CANCEL": "Annuler",
+            "DELETE": "Supprimer"
+        }
+    }
+}

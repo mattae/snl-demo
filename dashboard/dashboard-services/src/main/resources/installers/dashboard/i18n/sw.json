@@ -1,0 +1,10 @@
+{
+    "PLUGINS": {
+        "DASHBOARD_SERVICES": {
+            "DESCRIPTION": "Mfumo wa dashibodi unaolengwa na maonyesho",
+            "NAME": "Mfumo wa Dashibodi",
+            "TITLE": "Dashibodi ya LAMISPlus",
+            "MENU": "Dashibodi"
+        }
+    }
+}

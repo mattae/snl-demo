@@ -1,0 +1,10 @@
+{
+    "PLUGINS": {
+        "DASHBOARD_SERVICES": {
+            "DESCRIPTION": "Uma estrutura de painel com finalidade de demonstração",
+            "NAME": "Estrutura do painel",
+            "TITLE": "Painel LAMISPlus",
+            "MENU": "Painel"
+        }
+    }
+}

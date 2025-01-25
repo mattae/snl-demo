@@ -1,0 +1,17 @@
+{
+    "PLUGINS": {
+        "AI_SERVICES": {
+            "DESCRIPTION": "Ngwa mgbakwunye ntọala iji nye ọrụ AI maka plugins dabere",
+            "NAME": "Ọrụ AI"
+        }
+    },
+    "spring": {
+        "ai": {
+            "huggingface": {
+                "chat": "Spring AI - Hugging Face",
+                "url": "URL nlereanya",
+                "api_key": "Igodo API"
+            }
+        }
+    }
+}

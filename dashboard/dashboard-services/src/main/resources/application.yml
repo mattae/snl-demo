@@ -1,0 +1,13 @@
+spring:
+  liquibase:
+    enabled: false
+  ai:
+    ollama:
+      chat:
+        model: 'qwen2.5:7b'
+      embedding:
+        enabled: false
+sbp-plugin:
+  plugin-first-classes:
+    - org.springframework.ai.autoconfigure.ollama.*
+

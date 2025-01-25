@@ -1,0 +1,10 @@
+spring:
+  liquibase:
+    change-log: classpath:/installers/react-charts/schema/schema.xml
+    enabled: true
+  jpa:
+    show-sql: true
+    properties:
+      hibernate.format_sql: true
+
+

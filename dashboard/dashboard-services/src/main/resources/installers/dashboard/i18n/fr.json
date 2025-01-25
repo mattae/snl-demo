@@ -1,0 +1,10 @@
+{
+    "PLUGINS": {
+        "DASHBOARD_SERVICES": {
+            "DESCRIPTION": "Un cadre de tableau de bord à des fins de démonstration",
+            "NAME": "Cadre de tableau de bord",
+            "TITLE": "Tableau de bord LAMISPlus",
+            "MENU": "Tableau de bord"
+        }
+    }
+}

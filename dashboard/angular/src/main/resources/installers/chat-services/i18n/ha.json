@@ -1,0 +1,12 @@
+{
+    "PLUGINS": {
+        "CHAT_SERVICES": {
+            "DESCRIPTION": "Sabis ɗin taɗi mai sauƙi ta amfani da samfurin Ollama mai goyan baya",
+            "NAME": "Ayyukan Taɗi",
+            "SEND": "Aika",
+            "RETRY": "Sake gwadawa",
+            "CLEAR": "Share",
+            "MENU": "Taɗi"
+        }
+    }
+}

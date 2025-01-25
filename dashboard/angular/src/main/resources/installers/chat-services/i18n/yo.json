@@ -1,0 +1,12 @@
+{
+    "PLUGINS": {
+        "CHAT_SERVICES": {
+            "DESCRIPTION": "Iṣẹ iwiregbe ti o rọrun nipa lilo awoṣe Ollama atilẹyin",
+            "NAME": "Awọn iṣẹ iwiregbe",
+            "SEND": "Firanṣẹ",
+            "RETRY": "Tun gbiyanju",
+            "CLEAR": "Ko o",
+            "MENU": "Wiregbe"
+        }
+    }
+}

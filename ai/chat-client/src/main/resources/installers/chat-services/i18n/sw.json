@@ -1,0 +1,12 @@
+{
+    "PLUGINS": {
+        "CHAT_SERVICES": {
+            "DESCRIPTION": "Huduma rahisi ya gumzo kwa kutumia muundo wa Ollama unaotumika",
+            "NAME": "Huduma za Gumzo",
+            "SEND": "Tuma",
+            "RETRY": "Jaribu tena",
+            "CLEAR": "Wazi",
+            "MENU": "Soga"
+        }
+    }
+}

@@ -1,0 +1,55 @@
+<div class="chat-container bg-surface text-on-surface w-full p-4 rounded-md shadow-md max-w-3xl mx-auto">
+    <div class="chat-messages space-y-4 mb-4 overflow-y-auto" #messageContainer>
+        <!-- Loop through messages -->
+        @for (message of messages(); track message) {
+            <div [ngClass]="{'user': message.role === 'user', 'model': message.role === 'model'}"
+                 class="chat-message flex">
+                <!-- User Message -->
+                @if (message.role === 'user') {
+                    <div class="ml-auto max-w-lg px-4 py-2 rounded-lg bg-primary text-on-primary">
+                        {{ message.text }}
+                    </div>
+                } @else {
+                    <div class="mr-auto max-w-lg px-4 py-2 rounded-lg bg-tertiary text-on-tertiary">
+                        <pre class="whitespace-pre-wrap" [innerHTML]="message.text"></pre>
+                    </div>
+                }
+            </div>
+        }
+    </div>
+
+    <!-- Loading Indicator -->
+    @if (loading()) {
+        <div class="loading-indicator flex justify-center items-center">
+            <span class="dot dot1"></span>
+            <span class="dot dot2"></span>
+            <span class="dot dot3"></span>
+        </div>
+    }
+
+    @if (error()) {
+        <!-- Error Message -->
+        <div class="error-message bg-red-100 text-red-700 p-3 rounded-md flex justify-between items-center">
+            <span>{{ errorMessage() }}</span>
+            <div class="flex space-x-2">
+                <button mat-button class="bg-secondary text-on-secondary"
+                        (click)="retrySendMessage()">{{ 'PLUGINS.CHAT_SERVICES.RETRY' | transloco }}
+                </button>
+                <button mat-button class="bg-primary text-on-primary"
+                        (click)="clearError()">{{ 'PLUGINS.CHAT_SERVICES.CLEAR' | transloco }}
+                </button>
+            </div>
+        </div>
+    }
+
+    <!-- Input and Submit Button -->
+    <form (ngSubmit)="sendMessage()" class="chat-input flex items-center space-x-4">
+        <mat-form-field class="flex-grow w-full">
+            <textarea matInput placeholder="Type your message..." [(ngModel)]="inputText" name="message"
+                      rows="2"></textarea>
+        </mat-form-field>
+        <button mat-raised-button class="bg-primary text-on-primary" type="submit" [disabled]="!inputText.trim()">
+            {{ 'PLUGINS.CHAT_SERVICES.SEND' | transloco }}
+        </button>
+    </form>
+</div>
