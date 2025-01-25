@@ -107,5 +107,10 @@ spring:
 
 ---
 
+## Note
+If you don't want to go through the stress of project setup and building, you can install the plugins in the [built_plugins](files/built_plugins) folder. You Should install [AI Services](files/built_plugins/ai-services-1.0.0.jar) and [Dashboard Services](files/built_plugins/dashboard-services-1.0.0.jar) first and the other in any order. A better option is to `zip` all the files and install the zipped file and the system will install them in the correct order
+
+---
+
 This guide provides a comprehensive overview of the SNL platform's plugin development process. For further assistance, refer to the provided documentation or reach out to the development team.
 
